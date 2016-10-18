@@ -1,0 +1,489 @@
+/* (c) override classes */
+
+/*#21793b lcc dark green
+#5da631 lcc light green*/
+
+strong {
+  font-weight: bold;
+}
+
+.fa {
+    font-size:22px;
+}
+
+fieldset.panel .panel-body {
+  padding-right: 14px;
+}
+
+.chip_wrapper > h2, form > h2 {
+    font: normal 28px / 1.3 'Sari-Medium', Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin:0;
+
+}
+
+.chip_entryform form {
+    margin-bottom:50px;
+}
+
+.chip_entryform form:after {
+    content:" ";
+    clear:both;
+}
+
+#contents {
+    margin: 0 -14px 0 -14px;
+}
+
+.chip_wrapper {
+    font-size:16px;
+	width:100%;
+	background:#eee;
+	padding:14px;
+}
+
+.chip_wrapper h2 {
+    display:none;
+    visibility: hidden;
+}
+
+/*.chip_formfieldrow {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 7px;
+}*/
+
+.chip_entryform {
+    background: transparent;
+    padding:0;
+}
+
+
+.chip_entryform ul {
+
+
+}
+
+.chip_entryform h3 {
+        font: 700 22px / 1.4 'News Gothic', Helvetica, Arial, sans-serif;
+        color: #1a1a1a;
+}
+
+.chip_pagestepscontainer ul li, .chip_loadmessage ul li{
+
+}
+
+.chip_loadmessage, .chip_loadmessage ul {
+	background:#F2DEDE;
+	width:100%;
+	color:#B94A48 !important;
+}
+
+.chip_optionswrapper {
+
+}
+
+
+
+.chip_optionswrapper ul, .chip_homeoptions ul {
+    padding:0;
+    margin:10px;
+    display: block;
+}
+
+.chip_optionswrapper ul:after, .chip_homeoptions ul:after {
+    clear:both;
+    content:" ";
+    display: block;
+}
+
+.chip_optionswrapper li, .chip_homeoptions li {
+    display:inline;
+    xfloat:left;
+    xwidth:calc(50% - 20px);
+    margin:0 10px 20px 10px;
+}
+
+.chip_optionswrapper li:hover {
+
+}
+
+.chip_optionswrapper li a, .chip_homeoptions ul li a {
+    border-radius: 3px;
+    xmin-height:130px;
+    display: block;
+    padding:20px;
+    background: #5da631;
+    color:#fff !important;
+}
+
+.chip_optionswrapper li a:hover, .chip_optionswrapper li a:focus, .chip_optionswrapper li a:active, .chip_homeoptions ul li a:hover, .chip_homeoptions ul li a:active, .chip_homeoptions ul li a:focus {
+    background: #21793b;
+    color: #fff !important;
+}
+
+.chip_documentlinks a {
+
+}
+
+.chip_documentlinks a:hover{
+
+}
+
+.chip_declaration {
+
+}
+
+.column_content_ssp {
+
+}
+
+.chip_homeoptions ul li a span {
+    font-size: 16px;
+}
+
+.chip_homeoptions ul li a span b {
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.chip_paragraphtitle, .chip_optionswrapper ul li a h2 {
+    font: 400 22px / 1.25 'News Gothic', Helvetica, Arial, sans-serif !important;
+    margin:0;
+    padding:0 0 10px 0;
+    display: inline-block;
+    visibility: visible;
+    width:100%;
+	line-height:1.3em;
+	color:#fff;
+}
+
+
+.chip_optionswrapper h2 {
+
+}
+
+.chip_paragraphs {
+    font: 400 19px / 1.25 'News Gothic', Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    clear:both;
+    display: inline-block;
+    line-height: 23px;
+}
+
+
+.btn, .qq-upload-button, .chip_formfieldbutton {
+    border: 0;
+    background-color: #21793b;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    padding: 9px 22.5px 10px 22.5px;
+    line-height: 1;
+}
+
+.btn:hover, .btn:focus, .btn:active, .qq-upload-button:hover, .chip_formfieldbutton:hover {
+    background-color: #175529;
+}
+
+
+.btn-primary , .chip_formfieldbuttondefault{
+    display: inline-block;
+    border: 0;
+    background-color: #21793b;
+    color: #fff;
+    xwidth: 100%;
+    text-align: center;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    padding: 9px 22.5px 10px 22.5px;
+    line-height: 1;
+    margin-left:5px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background:#000;
+    color:#fff;
+}
+
+
+.chip_formlabel, .chip_forminput {
+    font-weight: 700;
+    font-size: 18.5px;
+    xfloat: left;
+    width: 30%;
+    text-align: right;
+    padding-top: 8px;
+    margin-right: 14px;
+    margin-bottom: 0;
+}
+
+.chip_forminput {
+    text-align: left !important; /* Why was this set to right? */
+}
+
+.chip_labelinfo {
+    font-family: inherit;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 14.5px;
+    font-weight:200;
+    color: #6c6c6c;
+
+}
+
+.chip_docuploadtable {
+    border:0;
+    background:#eee;
+    border-radius: 0;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=search],
+textarea,
+select {
+  border: 1px solid #d6d6d6;
+  padding: 7px;
+  width: 55%;
+  background-color: #fff;
+  color: #1a1a1a;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.chip_forminput, .chip_formselect {
+}
+
+.chip_textarea {
+        -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:100%;
+    font-family: inherit;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    font-size: 16px !important;
+    resize: vertical;
+    padding:10px;
+}
+
+.chip_textareareadonly {
+    border:0;
+    box-shadow: none;
+}
+
+.chip_requiredfieldsnotice {
+    padding:0;
+    font-size:15px;
+}
+
+.chip_formreadonlywrapper {
+    border-radius: 0;
+    border:0;
+}
+
+.chip_formreadonlywrapper .chip_forminput {
+    border:transparent;
+    box-shadow: none;
+    padding-top:5px !important;
+}
+
+.chip_formreadonlywrapper .chip_formfieldrow {
+    padding:0;
+    clear:both;
+}
+
+.chip_formreadonlywrapper .chip_formfieldbuttonwrapper {
+    clear:both;
+    display: block;
+    padding-bottom: 30px;
+}
+
+.chip_formreadonlywrapper .chip_formfieldbuttonwrapper:after{
+    clear:both;
+    content:" ";
+}
+
+.chip_formfieldbuttonwrapper {
+        padding-right:10px;
+}
+
+
+#tblProofs td {
+    font-size:16px;
+}
+
+.chip_loadmessage ul {
+    border:0;
+    border-radius: 0;
+    width:100%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.chip_loadmessage ul li {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.chip_checkbox {
+    margin-top:8px !important;
+}
+
+#trProof0 .chip_checkbox {
+    margin-top:-10px !important;
+}
+
+.chip_formlabelrequired {
+	color:red;
+}
+
+.securityiconswrapper {
+	width:100%;
+	border:0;
+	border-radius:0;
+	font-size:13px;
+}
+
+.securityiconswrapper img {
+    display: inline-block;
+    padding:0px 5px 0 5px;
+    width: 143px;
+}
+
+.header-global .header-global-logo {
+  display: inline-block;
+  width: 130px;
+  height: 32px;
+  text-indent: -1000em;
+  background: url("logo.svg") no-repeat;
+  background-size: 100%;
+  border-bottom: 0;
+  margin-top: 2px;
+}
+
+.chip_pagestepscontainer {
+	padding:0;
+}
+
+.chip_pagestepscontainer ul {
+	width:100%;
+	border:0;
+	background:transparent;
+	border-radius:0;
+}
+
+.chip_pagebutton {
+    border: 0;
+    background-color: #21793b;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    padding: 9px 22.5px 10px 22.5px;
+    line-height: 1;
+}
+
+.chip_pagebuttonon , .chip_pagebuttonback{
+	background:#21793b;
+	color:white !important;
+}
+
+.chip_pagebuttonback a, .chip_pagebuttonback a:hover {
+	color:white !important;
+	border:0;
+}
+
+.chip_pagebuttonoff {
+	background:#5da631;
+	color:#000;
+}
+
+.chip_formfielddate {
+	width:20%;
+}
+
+.chip_forminputsmaller {
+	width:20%;
+}
+
+.chip_labelinfo img {
+	top:-3px;
+	width:auto !important;
+	display:inline !important;
+}
+
+.chip_optionswrapper .chip_paragraphs {
+    color:#fff;
+}
+
+@media screen and (max-width: 767px) {
+    .chip_optionswrapper li, .chip_homeoptions ul li {
+        float:none;
+    }
+    .chip_optionswrapper li a, .chip_homeoptions ul li a {
+        min-height:0px;
+    }
+    .chip_formlabel {
+        width:100%;
+        text-align: left;
+        font-weight: 700;
+    }
+    .chip_labelinfo {
+        width:100%;
+        text-align: left;
+        font-weight: 200;
+        padding:0;
+    }
+    .chip_forminput {
+        width: 100%;
+    }
+    .chip_loadmessage ul {
+        width:100%;
+    }
+    .chip_wrapper {
+        margin:7px;
+        width:96%;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    input[type=text],
+    input[type=password],
+    input[type=email],
+    input[type=number],
+    input[type=search],
+    textarea,
+    select {
+      width: 100%;
+    }
+    #contents {
+        xmargin: 0px;
+    }
+    main .container {
+        xmargin: 0 -20px;
+    }
+    main .container article {
+        xmargin: 0 14px;
+    }
+    main {
+        xpadding: 14px 28px;
+    }
+    .chip_wrapper {
+        margin:7px;
+        width:96%;
+    }
+}

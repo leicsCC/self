@@ -1,0 +1,693 @@
+/* 	Chipside base styles - these are for BASE styling only
+	See customer style sheets for additional styles */
+	
+/* Version 1.0.6 - 26 Oct 2011 */
+
+.INFO {
+	font-weight:bold;
+	color:red;
+}
+
+.both {
+	clear:both;
+}
+	
+.chip_wrapper {
+		color:#000;
+		width:80%;
+		font-size:12px;
+}
+
+.chip_wrapper  h2 {
+	color: #000;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.chip_homeoptions {
+	width:80%;
+	margin:0 auto;
+	padding-top:10px !important;
+}
+
+.chip_homeoptions ul {
+	display:block;
+	list-style:none;
+	margin:0 !important;
+	width:93.8%;
+}
+
+.chip_homeoptions ul li {
+	display:block;
+	list-style:none;
+}
+
+.chip_homeoptions ul li a {
+	border:1px solid #bbb;
+	display:inline-block;
+	width:100%;
+	margin:0 !important;
+	padding:20px;
+	padding-bottom:10px !important;
+	border-radius:10px;
+	background:#eee;
+	color:#000;
+	text-decoration:none;
+}
+
+.chip_homeoptions ul li a:hover {
+	border:1px solid #aaa;
+	background:#ddd;
+	text-decoration:none !important;
+}
+
+.chip_homeoptions p:hover {
+	text-decoration:none !important;
+}
+
+.chip_homeoptions ul li p {
+	margin:0 !important;
+	padding:0 !important;
+	padding-bottom:10px !important;
+	text-decoration:none !important;
+}
+
+.chip_paragraphtitle {
+	font-size:18px;
+	text-decoration:none;
+	display:block;
+	margin:0 0 10px 0;
+}
+
+.chip_entryform {
+}
+
+.chip_entryform h3 {
+	font-size: 1.5em;
+}
+
+.chip_paragraphs {
+    display:block;
+	margin:12px 0 12px 0;
+}
+
+.chip_loadmessage {
+
+}
+
+.chip_loadmessage ul {
+	border:2px solid #f00;
+	padding:10px;
+	list-style:none;
+	text-align:center;
+	border-radius:10px;
+	color:#f00;
+	background:#eee;
+}
+
+.chip_formfieldrow {
+	padding:10px;
+}
+
+.chip_formlabel {
+	width:25%;
+	display:inline-block;
+	text-align:right;
+	padding:0 15px 0 0;
+	
+}
+
+.chip_aligntop {
+	vertical-align:top;
+	padding-top:5px;
+}
+
+* html .chip_formlabel { display:inline; }  /* for IE 6 */
+* + html .chip_formlabel { display:inline; }  /* for IE 7 */
+
+.chip_forminput {
+	border:1px solid #999;
+	padding:3px;
+	width:17em;
+}
+
+.chip_textarea {
+	resize: none;
+	border:1px solid #999;
+	padding:3px;
+	font-family:Arial, Sans Serif;
+	font-size:13px;
+	width:90%;
+}
+
+.chip_permitaddresslist {
+	width:30em;
+}
+
+.chip_inlinebuttons {
+	padding:0 !important;
+	padding-left:32.6% !important;
+	text-align:left !important;
+}
+
+.chip_forminputsmaller {
+	width:4em;
+}
+
+.chip_forminputsmaller {
+	width:4em;
+}
+
+.chip_formselect {
+	border:1px solid #999;
+	padding:3px;
+	font-size:13px;
+	width:18em;
+}
+
+.chip_docuploadwrapper 
+{
+	margin-bottom:20px;
+}
+
+.chip_docuploadtable {
+	background:#eee;
+	padding:10px;
+	border-radius:10px;
+	border: 1px solid #ccc;
+}
+
+.chip_docuploadtable table {
+	width:99%;
+	margin:0 auto;
+}
+
+.chip_docuploadtable td, .chip_docuploadtable th {
+	text-align:center;
+	font-size:12px;
+}
+
+.chip_docuploadbrowse {
+	width:14em;
+}
+
+.chip_docuploadtable td.progressbar {
+	width:160px;
+}
+
+.chip_docuploadtable  td.progressbar input {
+	float:right;
+}
+
+.qq-upload-button {
+	border:1px solid #aaa;
+	padding:4px 5px 5px 5px;
+	border-radius:5px;
+	background:#fff;
+	width:80px;
+	margin:0 auto;
+}
+
+.qq-upload-button-hover {
+	background:#ccc;
+	border:1px solid #888;
+}
+
+.chip_removeupload {
+	border:1px solid #aaa;
+	padding:4px 5px 5px 5px;
+	border-radius:5px;
+	background:#fff;
+	width:80px;
+	margin:0 auto;
+	cursor:pointer;
+	color:#900;
+	font-weight:bold;
+}
+
+.chip_removeupload:hover {
+	background:#ccc;
+	border:1px solid #888;
+}
+
+.chip_uploadcomplete {
+	color:#090;
+	font-weight:bold;
+	padding:4px 0px 5px 0px;
+}
+
+.chip_noupload {
+	color:#900;
+	font-weight:bold;
+}
+
+.chip_tableselect {
+	width:100%;
+}
+
+.chip_formfielddate {
+	width:5em;
+} 
+
+.chip_formreadonlywrapper {
+	background:#eee;
+	border-radius:10px;
+	border:1px solid  #ccc;
+	padding:10px 10px 10px 10px;
+	margin:10px 0 10px 0;
+}
+
+.chip_forminputreadonly {
+	border:1px solid #eee;
+	background:#eee;
+	font-weight:bold;
+	width:20em;
+}
+
+.chip_textareareadonly {
+	resize: none;
+	border:1px solid #eee;
+	background:#eee;
+	font-weight:bold;
+	width:20em;
+}
+
+.chip_labelinfo {
+	font-size:10px;
+	padding:0 0 0 10px;
+}
+
+.chip_labelinfo img {
+	position:relative;
+	top:5px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.chip_refnumber {
+	font-weight:bold;
+}
+
+.chip_requiredfieldsnotice {
+	font-size:10px;
+	padding-right:100px;
+	text-align:center;
+}
+
+.chip_pagestepscontainer {
+	padding: 0 10px 10px 10px;
+	text-align:center;
+	margin:0px 0 10px 0;
+}
+
+.chip_pagestepscontainer ul {
+	display:inline-block;
+	list-style:none;
+	padding:7px;
+	margin:0 auto;
+	border:1px solid #ccc;
+	background:#eee;
+	border-radius:10px;
+}
+
+* html .chip_pagestepscontainer ul { display:inline; }  /* for IE 6 */
+* + html .chip_pagestepscontainer ul { display:inline; }  /* for IE 7 */
+
+.chip_pagestepscontainer ul li {
+
+}
+
+.chip_formfieldbuttonwrapper {
+	text-align:right;
+	padding:10px 50px 20px 0;
+}
+
+.chip_formfieldbutton {
+	padding:3px 10px 3px 10px;
+	cursor:pointer;
+}
+
+.chip_formfieldbuttondefault {
+	padding:3px 10px 3px 10px;
+	cursor:pointer;
+	float:right;
+}
+
+.chip_docuploadbutton {
+	padding:1px;
+}
+
+.chip_pagebutton {
+	display:inline-block;
+	list-style:none;
+	border:1px solid #aaa;
+	width:100px;
+	padding:10px;
+	border-radius:7px;
+	background:#ddd;
+	color:#888;
+}
+
+* html .chip_pagebutton { display:inline; }  /* for IE 6 */
+* + html .chip_pagebutton { display:inline; }  /* for IE 7 */
+
+.chip_pagebuttonon {
+	border:1px solid #888;
+	font-weight:bold;
+	background:#bbb;
+	color:#000;
+}
+
+.chip_pagebuttonoff {
+
+}
+
+.chip_pagebuttonback {
+	border:1px solid #999;
+	font-weight:bold;
+	background:#ccc;
+	color:#444;
+}
+
+.chip_pagebuttonback a {
+	color:#00306B;
+	border-bottom:1px dotted #00306B;
+}
+
+.chip_pagebuttonback a:hover {
+	color:#000;
+	text-decoration:none;
+	border-bottom:1px dotted #000;
+}
+
+.chip_formdeclarationlabel {
+	width:90%;
+	float:left;
+	text-align:center;
+}
+
+.chip_declaration {
+	border:0px solid #900;
+	border-radius:10px;
+	margin:10px 0 10px 0;
+	sbackground:#eee;
+	color:#000;
+	display:block;
+}
+
+.chip_checkbox {
+	margin-top:6px;
+	cursor:pointer;
+}
+
+* html .chip_checkbox {
+	margin-top:2px;
+}
+
+*+html .chip_checkbox {
+	margin-top:2px;
+}
+
+
+.chip_declaration input {
+	float:left;
+}
+
+.chip_photocontainer {
+	padding:10px 20px 10px 20px;
+}
+
+.chip_photocontainer img, .chip_photocontainer iframe {
+	width:99.6%;
+	border-radius:7px;
+	border:4px solid #fff;
+	box-shadow:0 0 5px #444;
+}
+
+.chip_photocontainer iframe 
+{
+	height:480px;
+}
+
+.chip_optionletter {
+	font-weight:bold;
+	padding:5px;
+}
+
+.chip_radiocell {
+	padding-left:5px;
+}
+
+.chip_optionswrapper {
+	width:90%;
+	margin:0 auto;
+}
+
+.chip_optionswrapper h2 {
+	padding:0 !important;
+	margin:0 !important;
+	font-size:22px  !important;
+	background:transparent !important;
+}
+
+.chip_optionswrapper .chip_paragraphs {
+	font-weight:none !important;
+	padding:5px 0 5px 0;
+}
+
+.chip_optionswrapper ul {
+	list-style:none;
+}
+
+.chip_optionswrapper li {
+	border:4px solid #ddd;
+	margin-bottom:20px;
+	
+	border-radius:10px;
+}
+
+.chip_optionswrapper li:hover {
+	background:#efefef;
+}
+
+.chip_optionswrapper li a {
+	display:block;
+	padding:10px;
+}
+
+.chip_documentlinks {
+	padding:10px 0 10px 0;
+	list-style:none;
+}
+
+.chip_documentlinks li {
+	padding-left:20px;
+	height:20px;
+}
+
+.pdf {
+	background: url(../images/pdf.png) no-repeat;
+	height:20px;
+	text-align:left;
+	padding-left:20px;
+	padding-top:2px;
+	
+}
+
+.pdf a {
+	color: #032386;
+	
+}
+
+.pdf a:hover {
+	color: #000;
+}
+
+/* Settings Config styles................................. */
+
+#chip_settingsconfig .chip_wrapper {
+	width:1000px !important;
+	margin:0 auto;
+}
+
+#chip_settingsconfig .chip_entryform {
+	background:#ddd;
+	padding:20px;
+	border-radius:10px;
+	margin-bottom:20px;
+}
+
+#chip_settingsconfig .chip_currentsettings {
+	background:#eee;
+}
+
+#chip_settingsconfig h1 {
+	padding:10px 0 10px 10px;
+	margin:0;
+}
+
+#chip_settingsconfig h2 {
+	background:transparent !important;
+	color:#666 !important;
+	margin:0;
+	padding:10px 0 10px 10px;
+}
+
+#chip_settingsconfig h3 {
+	background:transparent !important;
+	color:#000 !important;
+	margin:0;
+	padding:10px 0 10px 10px;
+}
+
+#chip_settingsconfig .chip_forminput {
+	width:70%;
+	box-shadow:0 1px 5px #aaa;
+}
+
+#chip_settingsconfig .chip_formfieldrow {
+	padding:10px;
+	margin:0;
+}
+
+#chip_settingsconfig .chip_formlabel {
+	Width:15%;
+	font-weight:bold;
+}
+
+#chip_settingsconfig .chip_formlabelbig {
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:left;
+}
+
+#chip_settingsconfig .chip_autowidth {
+	width:auto;
+}
+
+#chip_settingsconfig .chip_textarea {
+	width:70%;
+	box-shadow:0 1px 5px #aaa;
+	resize: vertical;
+	font-family:"courier new";
+	font-size:1.2em;
+}
+#chip_settingsconfig .chip_textareawide {
+	width:100%;
+}
+
+#chip_settingsconfig hr {
+	border:0;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #fff;
+}
+
+.chip_throbberwrapper {
+    xbackground: rgba(255,255,255,0.9);
+    background: url(../graphics/whitetrans.png) repeat;
+    height: 100%;
+    position: fixed;
+	top:0;
+	left:0;
+    width: 99.99%;
+    z-index: 999;
+}
+
+.chip_throbbercontainer {
+	margin:26% auto;
+	width:20px;
+	adding:39% 0 49% 0;
+}
+
+* html .chip_throbberwrapper {
+	/* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+  position: absolute; left: 0px; top: 0px;
+}
+body > .chip_throbberwrapper {
+  /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+  position: fixed;
+}
+
+* html  div.chip_throbberwrapper{
+  /* IE5.5+/Win - this is more specific than the IE 5.0 version */
+  left: expression( ( 0 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+  top: expression( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+  background: url(../graphics/whitetrans.gif) repeat;
+}
+
+.chip_detailstable {
+	width:100%;
+}
+
+.chip_detailstable th {
+	background:#ccc;
+	padding:5px 20px 5px 20px;
+	font-weight:bold;
+	border-top:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+}
+
+.chip_detailstable td {
+	background:#fff;
+	padding:5px 20px 5px 20px;
+}
+
+.chip_detailstable .chip_footertablecell {
+	background:#ddd;
+	font-weight:bold;
+}
+
+.chip_detailstable .chip_bottomborder {
+	border-bottom:1px solid #bbb;
+}
+
+.chip_detailstable .chip_topborder {
+	border-top:1px solid #bbb;
+}
+
+.chip_alignright {
+	text-align:right;
+}
+
+.chip_alignleft {
+	text-align:left;
+}
+
+.chip_totals {
+	font-size:120%;
+}
+
+.chip_errorwarpper {
+	padding:10px 0 10px 0;
+}
+
+.chip_homeoptionsrow a:link, .chip_homeoptionsrow a:visited {
+    font-weight:normal !important;
+}
+
+.securityiconswrapper {
+	background: #eee;
+	width:70%;
+	margin:0 auto;
+	text-align: center;
+	margin-bottom: 20px; 
+	padding:5px;
+	border-radius:10px;
+	border:1px solid #ccc;
+	clear:both;
+}
+
+.securityiconswrapper img {
+	padding:0px 5px 0 5px;
+}
+
+.securitystatement {
+	padding:5px;
+	color:#666;
+}
+
+/* End */
