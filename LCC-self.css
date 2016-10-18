@@ -1,5 +1,4 @@
 /*! LCC DST override css */
-/**
  
  #header h1 {
   margin-top:5%;
@@ -7,5 +6,5 @@
 }
 
 #header h1 a {
-  border-bottom: 0px !important;
+  border-bottom: 0px;
 }
