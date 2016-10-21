@@ -77,4 +77,19 @@ fieldset[disabled] .btn-primary.active {
   background-color: #FFFFFF; 
 }
 
+.btn.active .caret {
+  bottom:-11px;
+  position:absolute;
+  color:#175529;
+  left:41%;
+  display:block !important;
+  border-top-color:#175529;
+  border-bottom-color:#175529;
+  border-top-width:10px;
+  border-right-width:10px;
+  border-left-width:10px;
+  
+}
+
+
 /*----------------END OF BUTTON OVERRIDE--------------------*\
