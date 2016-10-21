@@ -27,3 +27,54 @@ a:focus {
   outline:5px auto -webkit-focus-ring-color;
   outline-offset:-2px
 }
+
+/*------------------------------------*\
+/* BUTTON STYLES - BOOTSTRAP CLASS .btn OVERRIDE */
+
+.btn-primary { 
+  color: #FFFFFF; 
+  background-color: #21793B; 
+  border-color: #21793B; 
+} 
+ 
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary { 
+  color: #FFFFFF; 
+  background-color: #175529; 
+  border-color: #21793B; 
+} 
+ 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary { 
+  background-image: none; 
+} 
+ 
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary[disabled].active, 
+fieldset[disabled] .btn-primary.active { 
+  background-color: #21793B; 
+  border-color: #21793B; 
+} 
+ 
+.btn-primary .badge { 
+  color: #21793B; 
+  background-color: #FFFFFF; 
+}
+
+/*----------------END OF BUTTON OVERRIDE--------------------*\
