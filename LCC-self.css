@@ -8,3 +8,10 @@
 #header h1 a {
   border-bottom: 0px;
 }
+
+.nav-site-motto {
+  display:block;
+  padding:14px 0;
+  line-height:1;
+  font-weight:700;
+}
