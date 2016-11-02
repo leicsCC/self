@@ -116,7 +116,7 @@ fieldset[disabled] .btn-primary.active {
     border-bottom: 1px solid #eeeeee;
 }
 
-h1.title {
+h1.title, h1.formName {
     font: normal 44px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif;
     color: #1a1a1a;
 }
