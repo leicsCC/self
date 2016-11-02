@@ -112,7 +112,11 @@ fieldset[disabled] .btn-primary.active {
     padding-bottom: 15px;
 }
 
+.list-unstyled ul {
+    border-bottom: 1px solid #eeeeee;
+}
+
 h1.title {
-   font: normal 44px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif;
+    font: normal 44px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif;
     color: #1a1a1a;
 }
