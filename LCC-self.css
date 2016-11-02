@@ -92,4 +92,12 @@ fieldset[disabled] .btn-primary.active {
 }
 
 
-/*----------------END OF BUTTON OVERRIDE--------------------*\
+/*----------------END OF BUTTON OVERRIDE--------------------*/
+
+/*------------- Login/register toolbar links----------------*/
+
+#toolbar .login-link {
+    padding: 10px 20px 10px;
+    color: #f8680f;
+    margin-top: 5px;
+}
