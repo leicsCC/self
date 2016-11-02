@@ -101,3 +101,12 @@ fieldset[disabled] .btn-primary.active {
     color: #f8680f;
     margin-top: 5px;
 }
+
+/*--- Services list items---*/
+
+.list-unstyled {
+    display: inline-block;
+    color: #21793b;
+    border-bottom: 1px solid transparent;
+    font: 700 22px / 1.4 'News Gothic',Helvetica,Arial,sans-serif;
+}
