@@ -104,7 +104,7 @@ fieldset[disabled] .btn-primary.active {
 
 /*--- Services list items---*/
 
-.list-unstyled {
+.list-unstyled a {
     display: inline-block;
     color: #21793b;
     border-bottom: 1px solid transparent;
