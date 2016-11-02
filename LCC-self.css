@@ -112,7 +112,7 @@ fieldset[disabled] .btn-primary.active {
     padding-bottom: 15px;
 }
 
-.list-unstyled ul {
+.list-unstyled {
     border-bottom: 1px solid #eeeeee;
 }
 
