@@ -30,16 +30,19 @@ a:focus {
 
 /*------------------------------------*\
 /* REMOVES SECTION TABS FOR ALL FORMS */
-
-/*.achieveforms-container .sectionsHead  {
-  display:none;
-}*/
-
-/*----------------END OF TABS REMOVAL--------------------*/
-
-.achieveforms-container .sectionsHead .sections-head-AF-Form-38fcf41c-1448-4975-b6ac-881d8e14ef36 {
+.achieveforms-container .sectionsHead  {
   display:none;
 }
+/*----------------END OF TABS REMOVAL--------------------*/
+
+
+/*------------------------------------*\
+/* REMOVES SECTION TABS FOR SPECIFIC FORM */
+/*.achieveforms-container .sectionsHead .sections-head-AF-Form-38fcf41c-1448-4975-b6ac-881d8e14ef36 {
+  display:block;
+}*/
+/*----------------END OF SPECIFIC TABS REMOVAL--------------------*/
+
 
 /*------------------------------------*\
 /* BUTTON STYLES - BOOTSTRAP CLASS .btn OVERRIDE */
