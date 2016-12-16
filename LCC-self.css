@@ -141,3 +141,9 @@ h1.title, h1.formName {
     font: normal 44px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif;
     color: #1a1a1a;
 }
+
+/*----------------Registrars modal dialog box width adjustment--------------------*/
+
+.modal-dialog {
+    width: 100%;
+}
