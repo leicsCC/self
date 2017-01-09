@@ -142,8 +142,12 @@ h1.title, h1.formName {
     color: #1a1a1a;
 }
 
-/*----------------Registrars modal dialog box width adjustment--------------------*/
+/*----------------Registrars style overrides--------------------*/
 
 .modal-dialog {
     width: 100%;
+}
+
+#anonymousLoginScreen #btn-anon {
+    display:none;
 }
