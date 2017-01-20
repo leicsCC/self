@@ -115,6 +115,14 @@ fieldset[disabled] .btn-primary.active {
 
 /*----------------END OF BUTTON OVERRIDE--------------------*/
 
+
+/*----------------NAV BAR MOBILE ZINDEX FIX--------------------*/
+.header-global .header-global-responsivebar {
+    z-index: 9999;
+}
+
+/*----------------END OF NAV BAR MOBILE ZINDEX FIX--------------------*/
+
 /*------------- Login/register toolbar links----------------*/
 
 #toolbar .login-link {
