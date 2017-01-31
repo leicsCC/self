@@ -159,16 +159,3 @@ h1.title, h1.formName {
 #anonymousLoginScreen #btn-anon {
     display:none;
 }
-
-
-/*---------------- Internal LCC forms --------------------*/
-
-/* Target the form/processs category to hide header logo so that link can't be clicked to external site */
-
-#AF-Category-6307323b-7120-470f-ae72-d68960e71fad .header-global .header-global-logo {
- display:none;
-}
-
-#AF-Process-37f356a7-ad20-4a57-8651-25009b9746b9 .header-global .header-global-logo {
- display:none;
-}
