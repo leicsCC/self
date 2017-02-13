@@ -131,6 +131,14 @@ fieldset[disabled] .btn-primary.active {
     margin-top: 5px;
 }
 
+.navbar-nav .open .dropdown-menu {
+   background-color:#ffffff;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+      border-color: #000000;
+}
+
 /*--- Services list items---*/
 
 .list-unstyled a {
