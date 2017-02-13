@@ -420,7 +420,7 @@ body {
   color: #1a1a1a;
   height: 100%;
   background-color: #fff;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   min-width: 320px;
 }
 p,
@@ -700,11 +700,10 @@ div[class*='column-'] {
   color: #fff;
 }
 .header-global .header-global-responsivebar {
-  position: fixed;
+  position: relative;
   z-index: 1;
   width: 100%;
   top: 0;
-  height: 50px;
   padding: 7px;
   background-color: #21793b;
   outline: 1px solid #fff;
