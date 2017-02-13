@@ -755,6 +755,7 @@ div[class*='column-'] {
   .header-global {
     padding: 14px 42px;
     border-bottom: 4px solid #5da631;
+    margin-bottom:14px;
   }
   .header-global .header-global-responsivebar {
     position: relative;
