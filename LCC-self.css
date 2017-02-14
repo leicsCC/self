@@ -32,6 +32,11 @@ a:focus {
   margin-bottom:15px;
 }
 
+#toolbar {
+  margin-bottom:14px;
+ 
+}
+
 
 /*------------------------------------*\
 /* REMOVES SECTION TABS FOR ALL FORMS */
