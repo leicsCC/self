@@ -691,6 +691,7 @@ div[class*='column-'] {
 }
 .header-global {
   background-color: #21793b;
+  margin-bottom: 14px;
 }
 .header-global .container {
   position: relative;
