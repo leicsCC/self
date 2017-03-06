@@ -177,3 +177,13 @@ html._AF h1 {
 #anonymousLoginScreen #btn-anon {
     display:none;
 }
+
+/*----------------Revised button styling for submit/next/previous--------------------*/
+
+.btn.submitbutton {
+margin-top:10px;
+}
+
+.fillinButtons .btn {
+    font-size: 16px;
+}
