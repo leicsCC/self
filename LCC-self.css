@@ -117,7 +117,20 @@ fieldset[disabled] .btn-primary.active {
   
 }
 
+/*----------------Revised button styling for submit/next/previous--------------------*/
 
+.btn.submitbutton {
+margin-top:10px;
+}
+
+.fillinButtons .btn {
+    font-size: 16px;
+}
+
+.btn-af {
+    margin-bottom:6px;
+    font-size: 16px;
+}
 /*----------------END OF BUTTON OVERRIDE--------------------*/
 
 
@@ -176,14 +189,4 @@ html._AF h1 {
 
 #anonymousLoginScreen #btn-anon {
     display:none;
-}
-
-/*----------------Revised button styling for submit/next/previous--------------------*/
-
-.btn.submitbutton {
-margin-top:10px;
-}
-
-.fillinButtons .btn {
-    font-size: 16px;
 }
