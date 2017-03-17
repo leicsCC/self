@@ -93,8 +93,8 @@ input.col-xs-11.col-sm-7.fieldInput {
     margin-bottom: 0!important;
 }
 
-input.col-xs-11.col-sm-7.fieldInput:focus {
-    outline: 3px solid #97c34b;
+input.col-xs-11.col-sm-7.check2.radio2.fieldInput:focus {
+    outline: 3px solid #ffbf47;
     outline-offset: 0;
     border: 2px solid #000000;
     -webkit-box-shadow: none !important;
