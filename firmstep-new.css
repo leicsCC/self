@@ -168,14 +168,29 @@ select.col-xs-11.col-sm-7.fieldInput.select:focus {
     display: none;
 }
 
-button.btn.btn-af.nextbutton.submitbutton {
+button.btn.btn-af.submitbutton {
     border-radius: 0;
     border-top: 0;
     border-left: 0;
     border-right: 0;
     border-bottom: 2px solid #003618;
     color: #ffffff;
-    background-color: #00823b;
+    background-color: #21793b;
+    padding: 8px 16px 6px 16px;
+    font-size: 16px;
+    float: left!important;
+    box-shadow: none;
+    font-family: Arial, sans-serif!important;
+}
+
+button.btn.btn-af.nextbutton {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #003618;
+    color: #ffffff;
+    background-color: #21793b;
     padding: 8px 16px 6px 16px;
     font-size: 16px;
     float: left!important;
