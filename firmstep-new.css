@@ -64,12 +64,12 @@ span._fieldName {
     font-family: Arial, sans-serif;
 }
 
-span.col-xs-11.col-sm-11.fieldName {
+span.col-xs-11.col-sm-7.fieldName {
     padding-left: 0px!important;
     color: #000000!important;
 }
 
-input.col-xs-11.col-sm-11.fieldInput {
+input.col-xs-11.col-sm-7.fieldInput {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -87,7 +87,7 @@ input.col-xs-11.col-sm-11.fieldInput {
     margin-bottom: 0!important;
 }
 
-input.col-xs-11.col-sm-11.fieldInput:focus {
+input.col-xs-11.col-sm-7.fieldInput:focus {
     outline: 3px solid #97c34b;
     outline-offset: 0;
     border: 2px solid #000000;
@@ -96,7 +96,7 @@ input.col-xs-11.col-sm-11.fieldInput:focus {
     box-shadow: none !important;
 }
 
-textarea.col-xs-11.col-sm-11.fieldInput.textarea {
+textarea.col-xs-11.col-sm-7.fieldInput.textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -114,7 +114,7 @@ textarea.col-xs-11.col-sm-11.fieldInput.textarea {
     margin-bottom: 0!important;
 }
 
-textarea.col-xs-11.col-sm-11.fieldInput.textarea:focus {
+textarea.col-xs-11.col-sm-7.fieldInput.textarea:focus {
     outline: 3px solid #97c34b;
     outline-offset: 0;
     border: 2px solid #000000;
@@ -123,7 +123,7 @@ textarea.col-xs-11.col-sm-11.fieldInput.textarea:focus {
     box-shadow: none !important;
 }
 
-select.col-xs-11.col-sm-11.fieldInput.select {
+select.col-xs-11.col-sm-7.fieldInput.select {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -141,7 +141,7 @@ select.col-xs-11.col-sm-11.fieldInput.select {
     margin-bottom: 0!important;
 }
 
-select.col-xs-11.col-sm-11.fieldInput.select:focus {
+select.col-xs-11.col-sm-7.fieldInput.select:focus {
     outline: 3px solid #97c34b;
     outline-offset: 0;
     border: 2px solid #000000;
