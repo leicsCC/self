@@ -1,0 +1,298 @@
+@media only screen and (min-width: 320px) {
+    div#page-container {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+    .fieldContent {
+        max-width: 100%!important;
+    }
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn {
+        font-size: 16px!important;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .fieldContent {
+        max-width: 50%!important;
+    }
+}
+
+.fieldContent {
+    margin-bottom: 30px!important;
+}
+
+h3 {
+    color: #000000;
+    font-family: Arial, sans-serif!important;
+}
+
+.steps {
+    font-size: 18px;
+    color: #6f777b;
+    margin-bottom: 0;
+    font-family: Arial, sans-serif!important;
+}
+
+.step-title {
+    font-size: 36px!important;
+    line-height: 36px!important;
+    color: #000000;
+    margin: 0!important;
+    font-family: Arial, sans-serif!important;
+}
+
+#page-container .sectionsHead {
+    display: none!important;
+}
+
+div#page-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.mandatory {
+    display: none;
+}
+
+span._fieldName {
+    font-size: 18px;
+    line-height: 1.31579;
+    text-transform: none;
+    font-family: Arial, sans-serif;
+}
+
+span.col-xs-11.col-sm-11.fieldName {
+    padding-left: 0px!important;
+    color: #000000!important;
+}
+
+input.col-xs-11.col-sm-11.fieldInput {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif!important;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+    width: 100%;
+    padding: 5px 4px 4px;
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 0;
+    margin-bottom: 0!important;
+}
+
+input.col-xs-11.col-sm-11.fieldInput:focus {
+    outline: 3px solid #97c34b;
+    outline-offset: 0;
+    border: 2px solid #000000;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+textarea.col-xs-11.col-sm-11.fieldInput.textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif!important;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+    width: 100%;
+    padding: 5px 4px 4px;
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 0;
+    margin-bottom: 0!important;
+}
+
+textarea.col-xs-11.col-sm-11.fieldInput.textarea:focus {
+    outline: 3px solid #97c34b;
+    outline-offset: 0;
+    border: 2px solid #000000;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+select.col-xs-11.col-sm-11.fieldInput.select {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif!important;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+    width: 100%;
+    padding: 5px 4px 4px;
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 0;
+    margin-bottom: 0!important;
+}
+
+select.col-xs-11.col-sm-11.fieldInput.select:focus {
+    outline: 3px solid #97c34b;
+    outline-offset: 0;
+    border: 2px solid #000000;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.achieveforms-container .all-sections .field {
+    padding-top: 0;
+}
+
+.achieveforms-container .all-sections .field .icon-valid {
+    display: none;
+}
+
+.cancelbutton {
+    display: none;
+}
+
+button.btn.btn-af.nextbutton {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #003618;
+    color: #ffffff;
+    background-color: #00823b;
+    padding: 8px 16px 6px 16px;
+    font-size: 16px;
+    float: left!important;
+    box-shadow: none;
+    font-family: Arial, sans-serif!important;
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[type=checkbox]+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[type=radio]+label:before {
+    color: #000000!important;
+    overflow: visible;
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label:before {
+    font-size: 38px!important;
+}
+
+input[type=radio]+label:before {
+    content: "\0043"!important;
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .check2:focus+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .radio2:focus+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .check2:focus+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .radio2:focus+label:before {
+    color: #000000!important;
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=checkbox]+label:before,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=radio]+label:before {
+    color: #000000!important;
+}
+
+input[type=checkbox]+label:before,
+input[type=radio]+label:before {
+    font-family: 'form controls'!important;
+}
+
+input[type=radio]+label:before {
+    content: "\0044"!important;
+    line-height: 40px!important;
+}
+
+input[type=radio].checked+label:before,
+input[type=radio]:checked+label:before {
+    content: "\0044"!important;
+    line-height: 40px!important;
+}
+
+input[type=checkbox].checked+label:before,
+input[type=checkbox]:checked+label:before,
+input[type=radio].checked+label:before,
+input[type=radio]:checked+label:before {
+    opacity: 1;
+    max-width: 44px!important;
+}
+
+input[type=radio]+label:before {
+    content: "\0043"!important;
+    line-height: 40px!important;
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label,
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label {
+    font-size: 16px;
+    color: #000000;
+    display: inline-block;
+    padding-right: 35px;
+    min-height: 46px!important;
+}
+
+input[type=checkbox]+label:before,
+input[type=radio]+label:before {
+    margin-right: 4px;
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldName {
+    min-height: inherit!important;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+}
+
+input[type=checkbox].checked+label:before,
+input[type=checkbox]:checked+label:before {
+    content: "\0041"!important;
+    line-height: 40px!important;
+}
+
+input[type=checkbox]+label:before {
+    content: "\0041"!important;
+    line-height: 40px!important;
+}
+
+input[type=checkbox].checked+label:before,
+input[type=checkbox]:checked+label:before {
+    content: "\0042"!important;
+    line-height: 40px!important;
+}
+
+.addressline2 {
+    margin-top: -15px!important;
+}
+
+.checkbox,
+.radio {
+    margin-bottom: 0px!important;
+}
+
+.hiddenField {
+    margin-bottom: 0!important;
+}
+
+.reveal {
+    padding-top: 10px;
+    border-left: solid #bfc1c3 5px;
+    padding-left: 25px;
+}
+
+._AF label.error,
+.achieveforms-container label.error {
+    color: #b10e1e!important;
+    font-weight: 600!important;
+    margin-top: 5px!important;
+    font-size: 16px!important;
+}
