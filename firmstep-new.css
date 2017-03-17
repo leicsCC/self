@@ -162,7 +162,7 @@ select.col-xs-11.col-sm-7.fieldInput.select:focus {
     display: none;
 }
 
-button.btn.btn-af.nextbutton {
+button.btn.btn-af.nextbutton.submitbutton {
     border-radius: 0;
     border-top: 0;
     border-left: 0;
