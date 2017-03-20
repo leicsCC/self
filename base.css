@@ -1889,7 +1889,7 @@ textarea,
 select {
   border: 1px solid #d6d6d6;
   padding: 7px;
-  width: 100%;
+  /*width: 100%;*/
   background-color: #fff;
   color: #1a1a1a;
   -webkit-border-radius: 3px 3px 3px 3px;
