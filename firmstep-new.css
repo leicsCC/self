@@ -317,3 +317,7 @@ input[type=checkbox]:checked+label:before {
     margin-top: 5px!important;
     font-size: 16px!important;
 }
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput,.achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode {
+max-width: 70%!important;
+}
