@@ -181,6 +181,19 @@ html._AF h1 {
     color: #1a1a1a;
 }
 
+h1 h2 h3 h4 h5 {
+    font: 'Sari-Medium', Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+}
+
+h2 {
+   font: normal 28px;
+}
+
+h3 {
+   font: normal 22px;
+}
+
 /*----------------Registrars style overrides--------------------*/
 
 .modal-dialog {
