@@ -206,7 +206,11 @@ h3 {
 
 /*----------------Hide Internal form group from services--------------------*/
 
-#app-content > div.service-groups > ul > li > a[title="Internal"] { display:none; height:0px; width:0px; !important }
+#app-content > div.service-groups > ul > li > a[title="Internal"] { 
+ display:none !important; 
+ height:0px !important; 
+ width:0px !important;
+}
 
 a.fsservice-pretty-link {
  height:auto !important;
