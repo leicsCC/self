@@ -176,6 +176,11 @@ h1.title, h1.formName {
     color: #1a1a1a;
 }
 
+.formName {
+    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+}
+
 html._AF h1 {
     font: normal 44px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif;
     color: #1a1a1a;
