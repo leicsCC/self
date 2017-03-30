@@ -177,17 +177,17 @@ h1.title, h1.formName {
 }
 
 .formName span {
-    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif; !important
+    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif !important;
     color: #1a1a1a;
 }
 
 .formName {
-    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif; !important
+    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif !important;
     color: #1a1a1a;
 }
 
 ._formName {
-    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif;
+    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif !important;
     color: #1a1a1a;
 }
 
