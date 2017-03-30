@@ -176,8 +176,13 @@ h1.title, h1.formName {
     color: #1a1a1a;
 }
 
+.formName span {
+    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif; !important
+    color: #1a1a1a;
+}
+
 .formName {
-    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif;
+    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif; !important
     color: #1a1a1a;
 }
 
