@@ -53,6 +53,13 @@ a:focus {
 }*/
 /*----------------END OF SPECIFIC TABS REMOVAL--------------------*/
 
+/*------------------------------------*\
+/* 90% WIDTH DIV */
+.div90 div {
+ width: 90%;
+}
+/*----------------END OF 90% WIDTH DIV--------------------*/
+
 
 /*------------------------------------*\
 /* BUTTON STYLES - BOOTSTRAP CLASS .btn OVERRIDE */
