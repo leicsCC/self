@@ -1,0 +1,17 @@
+<style>
+ 
+/**Interim measure to hide login and signup**/
+
+ #navigation {
+   display:none;
+ }
+
+#registerLink {
+  display:none;
+}
+
+#loginLink {
+  display:none;
+}
+
+</style>
