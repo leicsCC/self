@@ -141,6 +141,14 @@ margin-top:10px;
 
 /*----------------END OF NAV BAR MOBILE ZINDEX FIX--------------------*/
 
+/*------------------------------------*\/* FIELD LABEL ALERT STYLING */
+.fieldContent .label .alert-info {
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+/*----------------END OF FIELD LABEL ALERT STYLING--------------------*/
+
 /*------------- Login/register toolbar links----------------*/
 
 #toolbar .login-link {
