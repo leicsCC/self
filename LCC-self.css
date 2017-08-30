@@ -142,7 +142,7 @@ margin-top:10px;
 /*----------------END OF NAV BAR MOBILE ZINDEX FIX--------------------*/
 
 /*----------------FIELD LABEL ALERT STYLING--------------------*/
-.achieveforms-container .field .fieldContent .fieldName .alert-label label {
+.achieveforms-container .all-sections .field .fieldContent .fieldName .alert-label label {
     font-size: 1.4em;
     font-weight: bold;
 }
