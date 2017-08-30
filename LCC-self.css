@@ -143,13 +143,8 @@ margin-top:10px;
 
 /*------------------------------------*\/* FIELD LABEL ALERT STYLING */
 .alert-label {
-    background-image:-webkit-linear-gradient(top,#d9edf7 0,#b9def0 100%);
-    background-image:linear-gradient(to bottom,#d9edf7 0,#b9def0 100%);
-    background-repeat:repeat-x;
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffb9def0', GradientType=0);
+    font-size: 1.4em;
     font-weight: bold;
-    padding-top: 4px;
-    padding-left: 4px;
 }
 /*----------------END OF FIELD LABEL ALERT STYLING--------------------*/
 
