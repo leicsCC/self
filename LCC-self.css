@@ -143,7 +143,7 @@ margin-top:10px;
 
 /*----------------FIELD LABEL ALERT STYLING--------------------*/
 /*.achieveforms-container .all-sections .field .fieldContent .fieldName .alert-label label {*/
-.alert-label {
+.bold-label {
     font-size: 2em!important;
     font-weight: bold!important;
 }
