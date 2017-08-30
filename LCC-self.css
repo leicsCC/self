@@ -142,7 +142,7 @@ margin-top:10px;
 /*----------------END OF NAV BAR MOBILE ZINDEX FIX--------------------*/
 
 /*----------------FIELD LABEL ALERT STYLING--------------------*/
-.field .fieldContent .fieldName .alert-label span {
+.field .fieldContent .fieldName .alert-label label span {
     font-size: 1.4em;
     font-weight: bold;
 }
