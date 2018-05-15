@@ -245,5 +245,5 @@ a.fsservice-pretty-link {
     color: #000 !important;
 }
 .leaflet-container {
- cursor: url(https://fs-filestore-eu.s3-eu-west-1.amazonaws.com/leicestershire/Images/cursor-no.cur), not-allowed, auto;
+ cursor: not-allowed;
 }
