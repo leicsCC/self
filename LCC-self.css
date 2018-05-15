@@ -244,6 +244,6 @@ a.fsservice-pretty-link {
     background-color: #e1e1e1 !important;
     color: #000 !important;
 }
-.leaflet-dragging .leaflet-clickable,.leaflet-dragging .leaflet-container {
+.leaflet-container {
  cursor: not-allowed;
 }
