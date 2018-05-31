@@ -254,10 +254,6 @@ a.fsservice-pretty-link {
 ._AF .btn-default.btn, .achieveforms-container .btn-default.btn {
     color: #fff;
     font-weight: bold;
+	background-color: #21793B;
 }
 
-/*Makes subform pop-up mode button green*/
-/*media screen,print*/
-.active.btn-default, .btn-default:active, .btn-default:focus, .btn-default:hover, .open .btn-default.dropdown-toggle {
-    background-color: #21793B;
-}
