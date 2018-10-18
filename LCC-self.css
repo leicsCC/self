@@ -245,11 +245,6 @@ a.fsservice-pretty-link {
     color: #000 !important;
 }
 
-/*changes mouse pointer icon for report it map boundary*/
-.leaflet-container {
- cursor: not-allowed;
-}
-
 /*Makes find address text white*/
 ._AF .btn-default.btn, .achieveforms-container .btn-default.btn {
     color: #fff;
