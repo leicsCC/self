@@ -549,7 +549,7 @@ address {
   }
 }
 .container {
-  max-width: 970px;
+/*  max-width: 970px; */
   margin: 0 auto;
 }
 main {
