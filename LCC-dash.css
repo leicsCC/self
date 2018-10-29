@@ -40,6 +40,9 @@ a:focus {
 
 /*------------------------------------*\
 /* REMOVES SECTION TABS FOR ALL FORMS */
+.achieveforms-container .sectionsHeadInner  {
+  font-weight: normal;
+}
 /*.achieveforms-container .sectionsHead  {
   display:none;
 } */
