@@ -1,0 +1,259 @@
+/*! LCC DST override css */
+ 
+ #header h1 {
+  margin-top:5%;
+  font-weight: normal;
+}
+
+#header h1 a {
+  border-bottom: 0px;
+}
+
+.nav-site-motto {
+  display:block;
+  padding:14px 0;
+  line-height:1;
+  font-weight:700;
+}
+
+a:hover,a:focus {
+  color:#175529;
+  text-decoration:underline;
+  
+}
+
+a:focus {
+  outline:thin dotted;
+  outline:5px auto -webkit-focus-ring-color;
+  outline-offset:-2px
+}
+
+.nav-site {
+  margin-bottom:15px;
+}
+
+#toolbar {
+  margin-bottom:14px;
+ 
+}
+
+
+/*------------------------------------*\
+/* REMOVES SECTION TABS FOR ALL FORMS */
+/*.achieveforms-container .sectionsHead  {
+  display:none;
+} */
+/*----------------END OF TABS REMOVAL--------------------*/
+
+
+/*------------------------------------*\
+/* REMOVES SECTION TABS FOR SPECIFIC FORM */
+/*.achieveforms-container .sectionsHead .sections-head-AF-Form-38fcf41c-1448-4975-b6ac-881d8e14ef36 {
+  display:block;
+}*/
+/*----------------END OF SPECIFIC TABS REMOVAL--------------------*/
+
+
+/*------------------------------------*\
+/* BUTTON STYLES - BOOTSTRAP CLASS .btn OVERRIDE */
+
+.btn-primary { 
+  color: #FFFFFF; 
+  background-color: #21793B; 
+  border-color: #21793B; 
+} 
+ 
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary { 
+  color: #FFFFFF; 
+  background-color: #175529; 
+  border-color: #21793B; 
+} 
+ 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary { 
+  background-image: none; 
+} 
+ 
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary[disabled].active, 
+fieldset[disabled] .btn-primary.active { 
+  background-color: #21793B; 
+  border-color: #21793B; 
+} 
+ 
+.btn-primary .badge { 
+  color: #21793B; 
+  background-color: #FFFFFF; 
+}
+
+.btn.active .caret {
+  bottom:-11px;
+  position:absolute;
+  color:#175529;
+  left:41%;
+  display:block !important;
+  border-top-color:#175529;
+  border-bottom-color:#175529;
+  border-top-width:10px;
+  border-right-width:10px;
+  border-left-width:10px;
+  
+}
+
+/*----------------Revised button styling for submit/next/previous--------------------*/
+
+.btn.submitbutton {
+margin-top:10px;
+}
+
+.fillinButtons .btn {
+    font-size: 16px;
+}
+
+.btn-af {
+    margin-bottom:10px !important;
+    font-size: 16px !important;
+}
+/*----------------END OF BUTTON OVERRIDE--------------------*/
+
+
+/*----------------NAV BAR MOBILE ZINDEX FIX--------------------*/
+.header-global .header-global-responsivebar {
+    z-index: 9999;
+}
+
+/*----------------END OF NAV BAR MOBILE ZINDEX FIX--------------------*/
+
+/*----------------FIELD LABEL ALERT STYLING--------------------*/
+/*.achieveforms-container .all-sections .field .fieldContent .fieldName .alert-label label {*/
+.bold-label {
+    font-size: 2em !important;
+    font-weight: bold !important;
+}
+/*----------------END OF FIELD LABEL ALERT STYLING--------------------*/
+
+/*------------- Login/register toolbar links----------------*/
+
+#toolbar .login-link {
+    padding: 10px 20px 10px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.navbar-nav .open .dropdown-menu {
+   background-color:#ffffff;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+      border-color: #000000;
+}
+
+/*--- Services list items---*/
+
+.list-unstyled a {
+    display: inline-block;
+    color: #21793b;
+    border-bottom: 1px solid transparent;
+    font: 700 22px / 1.4 'News Gothic',Helvetica,Arial,sans-serif;
+    padding-bottom: 15px;
+}
+
+.list-unstyled {
+    border-bottom: 1px solid #eeeeee;
+}
+
+h1.title, h1.formName {
+    font: normal 44px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+}
+
+.formName span {
+    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif !important;
+    color: #1a1a1a;
+}
+
+.formName {
+    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif !important;
+    color: #1a1a1a;
+}
+
+._formName {
+    font: normal 42px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif !important;
+    color: #1a1a1a;
+}
+
+html._AF h1 {
+    font: normal 44px / 1.1 'Sari-Medium', Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+}
+
+h1 h2 h3 h4 h5 {
+    font: 'Sari-Medium', Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+}
+
+h2 {
+   font: normal 28px;
+}
+
+h3 {
+   font: normal 22px;
+}
+
+/*----------------Registrars style overrides--------------------*/
+
+.modal-dialog {
+    width: 100%;
+}
+
+#anonymousLoginScreen #btn-anon {
+    display:none;
+}
+
+/*----------------Hide Internal form group from services--------------------*/
+
+.service-groups > ul > li > a[title="Internal"] { 
+ display:none !important; 
+ height:0px !important; 
+ width:0px !important;
+}
+
+a.fsservice-pretty-link {
+ height:auto !important;
+}
+
+.service-groups a.fsservice-pretty-link.active {
+    border: 1px #e1e1e1 solid !important;
+    background-color: #e1e1e1 !important;
+    color: #000 !important;
+}
+
+/*changes mouse pointer icon for report it map boundary*/
+.leaflet-container {
+ cursor: pointer;
+}
+
+/*Makes find address text white*/
+._AF .btn-default.btn, .achieveforms-container .btn-default.btn {
+    color: #fff;
+    font-weight: bold;
+	background-color: #21793B;
+}
+
