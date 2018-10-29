@@ -41,7 +41,7 @@ a:focus {
 /*------------------------------------*\
 /* REMOVES SECTION TABS FOR ALL FORMS */
 .achieveforms-container .sectionsHead {
-	background: #eef7ee;
+  background: #f2fff0;
 }
 .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active .sectionNameTab {
   font-weight: normal;
