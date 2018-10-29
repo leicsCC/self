@@ -40,8 +40,12 @@ a:focus {
 
 /*------------------------------------*\
 /* REMOVES SECTION TABS FOR ALL FORMS */
-.achieveforms-container .sectionsHeadInner  {
+.achieveforms-container .sectionsHead {
+  background: #eef7ee;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active .sectionNameTab {
   font-weight: normal;
+  color: #3276b1;
 }
 /*.achieveforms-container .sectionsHead  {
   display:none;
