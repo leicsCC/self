@@ -39,7 +39,7 @@ a:focus {
 
 
 /*------------------------------------*\
-/* REMOVES SECTION TABS FOR ALL FORMS */
+/* SECTION TAB STYLING FOR DASH FORMS */
 .achieveforms-container .sectionsHead {
   background: #f0fff3;
 }
@@ -54,7 +54,7 @@ a:focus {
 /*.achieveforms-container .sectionsHead  {
   display:none;
 } */
-/*----------------END OF TABS REMOVAL--------------------*/
+/*----------------END OF TABS STYLING--------------------*/
 
 
 /*------------------------------------*\
