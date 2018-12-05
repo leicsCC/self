@@ -34,9 +34,11 @@ a:focus {
 
 #toolbar {
   margin-bottom:14px;
- 
 }
 
+.capitalise {
+  text-transform: capitalize;
+}
 
 /*------------------------------------*\
 /* REMOVES SECTION TABS FOR ALL FORMS */
