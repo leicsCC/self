@@ -41,11 +41,23 @@ a:focus {
 }
 
 /*------------------------------------*\
-/* REMOVES SECTION TABS FOR ALL FORMS */
-.achieveforms-container .sectionsHead  {
-  display:none;
+/* SECTION TAB STYLING FOR DASH FORMS */
+.achieveforms-container .sectionsHead {
+	background: #f0fff3;
 }
-/*----------------END OF TABS REMOVAL--------------------*/
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active .sectionNameTab {
+  font-weight: normal;
+  color: #21793B;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper .sectionNameTab {
+  font-weight: normal;
+  color: #21793B;
+}
+/* REMOVES SECTION TABS FOR ALL FORMS */
+/*.achieveforms-container .sectionsHead  {
+  display:none;
+} */
+/*----------------END OF TABS STYLING--------------------*/
 
 
 /*------------------------------------*\
