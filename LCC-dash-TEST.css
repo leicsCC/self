@@ -55,27 +55,12 @@ a:focus {
 } */
 /*--------------- END OF SECTION TABS STYLING -------------------*/
 
-/*---- SUBFORM DATA TABLE STYLING FOR DASH FORMS ----*/
-.achieveforms-container table.repeatable-table {
-    width: 91.66667%;
-    font-size: 12px;
-    border-radius: 4px;
-    margin-bottom: .5em;
-    border: 1px solid #ccc;
+/*---- IMAGE UPLOAD PLACEHOLDER ----*/
+#photo {
+  width:350px;
+  background: url(https://fs-filestore-eu.s3-eu-west-1.amazonaws.com/leicestershire/Images/photo-placeholder.png) no-repeat scroll 0 0;
 }
-
-._AF *, ._AF ::after, ._AF ::before, .achieveforms-container *, .achieveforms-container ::after, .achieveforms-container ::before {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    text-rendering: optimizeLegibility;
-}
-
-.achieveforms-container .all-sections .field .fieldContent .fieldInput, .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode {
-    word-wrap: break-word;
-}
-
-/*--------------- END OF SUBFORM DATA TABLE STYLING -------------------*/
+/*--------------- END OF IMAGE UPLOAD PLACEHOLDER -------------------*/
 
 /*---- REMOVES SECTION TABS FOR SPECIFIC FORM ----*/
 /*.achieveforms-container .sectionsHead .sections-head-AF-Form-38fcf41c-1448-4975-b6ac-881d8e14ef36 {
