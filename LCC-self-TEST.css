@@ -272,7 +272,7 @@ a.fsservice-pretty-link {
 }
 
 /*Calendar widget*/
-.row days-list select-action-image img {
+.days-list select-action-image img {
 	width: 48px;
 	height: 48px;
 }
