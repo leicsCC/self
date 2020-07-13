@@ -270,3 +270,12 @@ a.fsservice-pretty-link {
     font-weight: bold;
 	background-color: #21793B;
 }
+/*Calendar widget*/
+.carousel-control img {
+	width: 48px;
+	height: 48px;
+}
+.days-list select-action-image img {
+	width: 48px;
+	height: 48px;
+}
