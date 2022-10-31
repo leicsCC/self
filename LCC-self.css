@@ -165,11 +165,11 @@ margin-top:10px;
 
 /*------------- Login/register toolbar links----------------*/
 
-/*#toolbar .login-link {
+#toolbar .login-link {
     padding: 10px 20px 10px;
-    color: #ffffff;
+    color: #175529;
     margin-top: 5px;
-}*/
+}
 
 .navbar-nav .open .dropdown-menu {
    background-color:#ffffff;
