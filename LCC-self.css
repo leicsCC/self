@@ -165,7 +165,7 @@ margin-top:10px;
 
 /*------------- Login/register toolbar links----------------*/
 
-#toolbar .login-link {
+#SelfToolbar .login-link, #toolbar .login-link a:hover {
     padding: 10px 20px 10px;
     color: #175529;
     margin-top: 5px;
