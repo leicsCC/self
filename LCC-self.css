@@ -165,11 +165,17 @@ margin-top:10px;
 
 /*------------- Login/register toolbar links----------------*/
 
-#SelfToolbar .login-link a:hover, #SelfToolbar .login-link a:focus, #toolbar .login-link a:hover, #toolbar .login-link a:focus {
+.nav>li>a:hover, .nav>li>a:focus {
 /*    padding: 10px 20px 10px;*/
     color: #175529;
 /*    margin-top: 5px;*/
 }
+
+/*#SelfToolbar .login-link a:hover, #SelfToolbar .login-link a:focus, #toolbar .login-link a:hover, #toolbar .login-link a:focus {
+    padding: 10px 20px 10px;
+    color: #175529;
+    margin-top: 5px;
+}*/
 
 .navbar-nav .open .dropdown-menu {
    background-color:#ffffff;
