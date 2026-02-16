@@ -718,7 +718,7 @@ div[class*='column-'] {
   width: 130px;
   height: 32px;
   text-indent: -1000em;
-  background: url("logo.svg") no-repeat;
+  background: url("https://github.com/leicsCC/self/blob/master/logo.svg") no-repeat;
   background-size: 100%;
   border-bottom: 0;
   margin-top: 2px;
@@ -749,7 +749,7 @@ div[class*='column-'] {
   border-color: #f8680f;
 }
 .ie8 .header-global-logo {
-  background-image: url("../img-ie8/logo-small.png");
+  background-image: url("https://github.com/leicsCC/self/blob/master/logo.svg");
 }
 @media screen and (min-width: 780px) {
   .header-global {
@@ -786,7 +786,7 @@ div[class*='column-'] {
     padding: 0;
   }
   .ie8 .header-global-logo {
-    background-image: url("../img-ie8/logo.png");
+    background-image: url("https://github.com/leicsCC/self/blob/master/logo.svg");
   }
   .ie8 .header-global-search input[type=submit] {
     background-image: url("../img-ie8/trans.gif");
