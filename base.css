@@ -789,7 +789,7 @@ div[class*='column-'] {
     background-image: url("https://github.com/leicsCC/self/blob/master/logo.svg");
   }
   .ie8 .header-global-search input[type=submit] {
-    background-image: url("https://github.com/leicsCC/self/blob/master/trans.gif");
+    background-image: url("//cdn.jsdelivr.net/gh/leicsCC/self/trans.gif");
   }
 }
 .nav-site .content-hidden-wrapper .nav-site-motto {
