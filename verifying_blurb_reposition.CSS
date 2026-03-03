@@ -1,0 +1,6 @@
+#verifying_blurb {
+  position: absolute;
+  bottom: 80px; /* or higher, depending on layout */
+  left: 20px;
+  z-index: 1;
+}
